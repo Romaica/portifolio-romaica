@@ -1,0 +1,98 @@
+/*
+Limpar formatação
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* formatação genérica*/
+body {
+    font-size: 16px;
+    font-family: 'trebuchet ms', sans-serif;
+    color: #443737;
+    background-color: #e5e5e5; /* cinza no fundo */
+}
+
+h1, h2, h3 {
+    color: #5a093c; 
+    margin-bottom: 16px;
+}
+
+/* menu */
+#menu {
+    background-color: #C71585; /* Rosa de princesa =) */
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+#menu a:link, #menu a:visited {
+    color: thistle; /* Rosa claro os botões */
+    padding: 8px 12px;
+}
+
+#menu a:hover {
+    color: #C71585; /* Rosa de princesa =) */
+    background: #ffffff; /* branco */
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul li {
+    margin: 0 20px;
+}
+
+#menu ul li a {
+    color: rgb(63, 4, 63);/* Rosa claro os botões */
+    text-decoration: none;
+}
+
+
+/*
+áreas de conteúdo
+ */
+section {
+    padding: 80px 20px; /* espaçamento */
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+sobre, formacao, portfolio, contato {
+    font-size: 24px;
+    color: #C71585;
+    letter-spacing: 0.5px;
+}
+
+/* formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+button {
+    background-color: #C71585;
+    color: thistle;
+    padding: 12px;
+}
+
+button:hover {
+    background-color: #C71585;
+}
